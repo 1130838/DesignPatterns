@@ -12,5 +12,5 @@ public class Duck {
         this.name = name;
         this.age = age;
     }
-    
+
 }
