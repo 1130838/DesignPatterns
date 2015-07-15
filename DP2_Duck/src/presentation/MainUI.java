@@ -20,12 +20,13 @@ public class MainUI {
         d2.performQuack();
 
 
-        System.out.println("Creating a model duck");
-        ModelDuck modelDuck1 = new ModelDuck("modelDuck", 0);
-
         // --------------------
 
-        System.out.println("\nnow will make behaviours change dynamically - in run time ");
+        System.out.println("\nCreating a model duck");
+        ModelDuck modelDuck1 = new ModelDuck("modelDuck", 0);
+
+
+        System.out.println("\nnow will make behaviours change dynamically  (in run time) ");
 
         System.out.println("model duck created...in the beggining he dont know how to fly..");
         modelDuck1.performFly();
@@ -36,6 +37,15 @@ public class MainUI {
         modelDuck1.performQuack();
 
 
+        // ------
+
+        System.out.println("\neven a cell phone can implement the quackBehaviour and make its sound..");
+        CellPhone cellPhone = new CellPhone();
+        cellPhone.performQuack();
+
     }
+
+
+
 
 }
