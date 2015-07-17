@@ -6,6 +6,6 @@ package model;
 public class Quack implements QuackBehaviour {
     @Override
     public void quack() {
-        System.out.println("i'm a real duck adn i'm really quacking");
+        System.out.println("quack quack");
     }
 }

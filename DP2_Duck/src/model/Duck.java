@@ -3,7 +3,7 @@ package model;
 /**
  * Created by brunodevesa on 15/07/15.
  */
-public abstract class Duck  {
+public class Duck  {
 
     String name;
     int age;
@@ -14,6 +14,9 @@ public abstract class Duck  {
     public Duck(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+    public void doNothing(){
+
     }
 
     public void performQuack(){

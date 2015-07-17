@@ -6,6 +6,6 @@ package model;
 public class Squeak implements QuackBehaviour {
     @Override
     public void quack() {
-        System.out.println("im no real duck, i can't quack, just squeak..");
+        System.out.println("squeaaaaaaaak..");
     }
 }
